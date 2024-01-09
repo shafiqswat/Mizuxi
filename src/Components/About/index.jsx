@@ -5,17 +5,19 @@ import { Container, Row } from "react-bootstrap";
 import SimpleCardParent from "../SimpleCardParent";
 import styled from "styled-components";
 import Book from "../Book";
+import AccordionComponent from "../Accordion";
 function About() {
   return (
     <AboutContainer>
       <Container>
         <Row>
           <SimpleCardParent />
-          <div className='pt-5 bg-light'>
-            <Book heading1Text='Why this book' />
-          </div>
         </Row>
       </Container>
+      <div className='py-3 bg-light'>
+        <Book heading1Text='Why this book' />
+        <AccordionComponent />
+      </div>
     </AboutContainer>
   );
 }

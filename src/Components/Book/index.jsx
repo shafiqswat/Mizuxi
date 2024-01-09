@@ -22,7 +22,7 @@ export default Book;
 const BookContainer = styled.div`
   text-align: center;
   .custom-para {
-    width: 500px;
+    max-width: 500px;
     border-bottom: 3px solid lightgray;
     margin: auto;
   }
